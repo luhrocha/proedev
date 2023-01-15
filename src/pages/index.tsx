@@ -28,7 +28,7 @@ export default function Index() {
 
 ];
 
-function handleEmail(event:HTMLFormElement){
+function handleEmail(event: { preventDefault: () => void; }){
   event.preventDefault();
 }
 
